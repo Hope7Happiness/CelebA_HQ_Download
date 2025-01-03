@@ -81,3 +81,7 @@ This will start the process of building CelebA-HQ dataset. This will take a long
 | `celeba-256` | 256x256 images |
 | `celeba-512` | 512x512 images |
 | `celeba-1024` | 1024x1024 images with `.npy` files |
+
+## Acknowledgement
+
+Thank the wonderful project by [suvojit-0x55aa](https://github.com/suvojit-0x55aa/celebA-HQ-dataset-download). Also, the original code comes from [PGGAN](https://github.com/tkarras/progressive_growing_of_gans)
