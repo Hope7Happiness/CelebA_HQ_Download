@@ -1,0 +1,1 @@
+docker build -t celeba-hq . && docker run -it -v $(pwd):/data celebahq

@@ -1,0 +1,1 @@
+docker run -it -v $(pwd):/data --entrypoint bash suvojit0x55aa/celeba-hq
