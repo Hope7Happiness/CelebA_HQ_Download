@@ -84,10 +84,10 @@ This will start the process of building CelebA-HQ dataset. This will take a long
 
 **Note**: the code contain many checks:
 
-- the init check: [line 514](/docker/dataset_tool.py:516), check the libjpeg version
+- the init check: [line 514](/docker/dataset_tool.py#L514), check the libjpeg version
 - for each image, two checks:
-    - Pre-process md5 check: [line 598](/docker/dataset_tool.py:598), check whether the loading & processing of image & label is correct.
-    - Final md5 check: [line 631](/docker/dataset_tool.py:631), check correctness after adding the delta.
+    - Pre-process md5 check: [line 598](/docker/dataset_tool.py#L598), check whether the loading & processing of image & label is correct.
+    - Final md5 check: [line 631](/docker/dataset_tool.py#L631), check correctness after adding the delta.
 
 ## Acknowledgement
 
