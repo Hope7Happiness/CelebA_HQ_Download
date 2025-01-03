@@ -82,6 +82,13 @@ This will start the process of building CelebA-HQ dataset. This will take a long
 | `celeba-512` | 512x512 images |
 | `celeba-1024` | 1024x1024 images with `.npy` files |
 
+**Note**: the code contain many checks:
+
+- the init check: [line 514](/docker/dataset_tool.py:516), check the libjpeg version
+- for each image, two checks:
+    - Pre-process md5 check: [line 598](/docker/dataset_tool.py:598), check whether the loading & processing of image & label is correct.
+    - Final md5 check: [line 631](/docker/dataset_tool.py:631), check correctness after adding the delta.
+
 ## Acknowledgement
 
 Thank the wonderful project by [suvojit-0x55aa](https://github.com/suvojit-0x55aa/celebA-HQ-dataset-download). Also, the original code comes from [PGGAN](https://github.com/tkarras/progressive_growing_of_gans)
