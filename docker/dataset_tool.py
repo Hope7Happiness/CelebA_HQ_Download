@@ -1,3 +1,5 @@
+# copied and modified from https://github.com/tkarras/progressive_growing_of_gans/blob/master/dataset_tool.py
+
 # Copyright (c) 2018, NVIDIA CORPORATION. All rights reserved.
 #
 # This work is licensed under the Creative Commons Attribution-NonCommercial
